@@ -8,9 +8,6 @@
         Header("Location:login.php?durum=fakegiris");
     }
 
-    if($_SESSION['userkullanici_mail']=="admin@gmail.com"){
-        Header("Location:adminpanil.php?durum=admingiris");
-    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
